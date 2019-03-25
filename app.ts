@@ -3,7 +3,7 @@ import handler from "./handler";
 
 // Our Express APP config
 const app = express();
-app.set("port", 3000);
+app.set("port", 4000);
 
 // API Endpoints
 app.get('/set', (req, res) => {
